@@ -101,7 +101,3 @@ generated-project/
 Built with 💡 by [Rishav Bhardwaz](https://github.com/rishav-bhardwaz)
 
 ```
-
----
-
-Let me know if you’d like a version with screenshots, diagrams, badges, or deployment instructions too!
