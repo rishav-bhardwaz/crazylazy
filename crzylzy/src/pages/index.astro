@@ -1,11 +1,78 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import "../styles/global.css";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
-
 <Layout>
-	<Welcome />
-</Layout>
+	<main class="font-sans px-6 py-12 max-w-6xl mx-auto animate-fadeIn">
+	  <h1 class="text-5xl font-bold text-center mb-8 tracking-tight bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 text-transparent bg-clip-text">
+		Crazy Lazy - MVP Architecture
+	  </h1>
+  
+	  <p class="text-xl text-gray-600 text-center mb-12 animate-fadeInDelay">
+		A tool that takes your idea as a prompt and builds the entire codebase – frontend, backend, and database. Let's break down the MVP to make this a reality.
+	  </p>
+  
+	  <section class="grid md:grid-cols-2 gap-8">
+		<div class="bg-white p-6 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+		  <h2 class="text-2xl font-semibold mb-4">🎯 MVP Scope</h2>
+		  <ul class="list-disc ml-6 text-gray-700 space-y-1">
+			<li>Natural language input</li>
+			<li>Tech stack interpretation</li>
+			<li>Code generation using templates</li>
+			<li>Structured file output and zip</li>
+		  </ul>
+		</div>
+  
+		<div class="bg-white p-6 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+		  <h2 class="text-2xl font-semibold mb-4">🧠 Architecture Overview</h2>
+		  <pre class="bg-gray-100 p-4 rounded-md overflow-x-auto text-sm leading-relaxed font-mono">
+  [Frontend UI or CLI]
+		↓
+  [Prompt Handler (LLM)]
+		↓
+  [Feature Extractor]
+		↓
+  [Template + Code Generator]
+		↓
+  [File Structure Builder]
+		↓
+  [Zip Output / Preview]
+		  </pre>
+		</div>
+  
+		<div class="bg-white p-6 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+		  <h2 class="text-2xl font-semibold mb-4">🧱 Component Breakdown</h2>
+		  <ul class="list-disc ml-6 text-gray-700 space-y-1">
+			<li><strong>Prompt Handler:</strong> Parses user input using GPT</li>
+			<li><strong>Feature Extractor:</strong> Maps features to code templates</li>
+			<li><strong>Code Generator:</strong> Populates logic into templates</li>
+			<li><strong>File Builder:</strong> Creates directory + files</li>
+			<li><strong>Zip Export:</strong> Zips and offers download</li>
+		  </ul>
+		</div>
+  
+		<div class="bg-white p-6 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+		  <h2 class="text-2xl font-semibold mb-4">🛠️ Tech Stack</h2>
+		  <ul class="list-disc ml-6 text-gray-700 space-y-1">
+			<li><strong>Backend:</strong> Node.js + Express</li>
+			<li><strong>LLM:</strong> OpenAI API (or local model)</li>
+			<li><strong>Templating:</strong> Handlebars / EJS</li>
+		  </ul>
+		</div>
+	  </section>
+	</main>
+  
+	<style>
+	  @keyframes fadeIn {
+		from { opacity: 0; transform: translateY(10px); }
+		to { opacity: 1; transform: translateY(0); }
+	  }
+	  .animate-fadeIn {
+		animation: fadeIn 1s ease-out forwards;
+	  }
+	  .animate-fadeInDelay {
+		animation: fadeIn 1.5s ease-out forwards;
+	  }
+	</style>
+  </Layout>
