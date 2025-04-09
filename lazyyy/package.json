@@ -1,0 +1,11 @@
+{
+  "name": "lazyyy",
+  "version": "1.0.0",
+  "description": "Lazyyy is a proof-of-concept tool that allows users to input a project idea in plain English and receive a fully functional codebase as output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rishav-bz",
+  "license": "ISC"
+}

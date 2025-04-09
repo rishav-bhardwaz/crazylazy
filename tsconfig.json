@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "lib": ["ES2020", "DOM"],
+      "allowJs": false,
+      "jsx": "react-jsx",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "baseUrl": ".",
+      "paths": {
+        "@utils/*": ["utils/*"],
+        "@core/*": ["core/*"],
+        "@web/*": ["web/src/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist", "build"]
+  }
+  
