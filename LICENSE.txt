@@ -1,0 +1,28 @@
+Crazyy Lazyy - Insane Code Generator  
+Copyright (c) 2025 Rishav Bhardwaz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to use, run, and modify the Software for personal and commercial purposes.
+
+However, the following conditions must be strictly followed:
+
+1. No Ownership Claiming  
+   You may NOT copy, redistribute, rebrand, or represent this project as your own original creation. You must credit the original author (Lokansha) clearly when using or modifying this Software.
+
+2. Attribution Required  
+   Any public usage, deployment, or publication of modified or unmodified versions of the Software must include clear and visible attribution to the original creator.
+
+3. No Sub-Licensing or Resale  
+   You may not sell, license, sublicense, or otherwise distribute this Software as a standalone product or as part of another product claiming sole ownership.
+
+4. Freedom to Use  
+   You are free to use this Software for educational, research, personal, and commercial projects provided the above conditions are respected.
+
+5. No Warranty  
+   This Software is provided “as is”, without warranty of any kind, express or implied. In no event shall the authors be liable for any damages arising from the use of the Software.
+
+---
+
+This license strikes a balance: free to use, not free to steal.
+
+For permissions beyond this license, contact the creator directly.
+
