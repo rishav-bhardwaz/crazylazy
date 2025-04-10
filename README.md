@@ -5,6 +5,7 @@
 Crazy Lazy is a proof-of-concept tool that allows users to input a project idea in plain English and receive a fully functional codebase as output. It combines the power of Large Language Models (LLMs), templating systems, and zip export functionality to automate boilerplate creation for full-stack applications.
 
 ---
+**Currently providing only frontend code soon releasing with backend capabilities**
 
 ## How It Works
 
