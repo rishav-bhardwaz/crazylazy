@@ -19,7 +19,7 @@ const createWindow = async () => {
   if (isDev) {
     await win.loadURL('http://localhost:4321');
   } else {
-    const indexPath = path.join(__dirname, '../../web/dist/index.html');
+    const indexPath = path.join(__dirname, '../../web/templazy/dist/index.html');
     await win.loadFile(indexPath);
   }
 
