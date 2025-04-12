@@ -1,10 +1,12 @@
 {
   "devDependencies": {
+    "@types/archiver": "^6.0.3",
     "@types/electron": "^1.6.12",
     "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "archiver": "^7.0.1",
     "dotenv": "^16.4.7",
     "openai": "^4.93.0"
   }
