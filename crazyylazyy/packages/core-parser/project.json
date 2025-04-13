@@ -1,0 +1,17 @@
+{
+  "name": "core-parser",
+  "root": "packages/core-parser",
+  "sourceRoot": "packages/core-parser/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/core-parser",
+        "main": "packages/core-parser/src/index.ts",
+        "tsConfig": "packages/core-parser/tsconfig.json"
+      }
+    }
+  },
+  "tags": []
+}

@@ -95,5 +95,17 @@
         "linter": "eslint"
       }
     }
+  },
+
+  "projects": {
+    "core-parser": {
+      "tags": []
+    },
+    "template-engine": {
+      "tags": []
+    },
+    "templates": {
+      "tags": []
+    }
   }
 }

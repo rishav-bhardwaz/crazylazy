@@ -1,0 +1,17 @@
+{
+  "name": "template-engine",
+  "root": "packages/template-engine",
+  "sourceRoot": "packages/template-engine/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/template-engine",
+        "main": "packages/template-engine/src/index.ts",
+        "tsConfig": "packages/template-engine/tsconfig.json"
+      }
+    }
+  },
+  "tags": []
+}

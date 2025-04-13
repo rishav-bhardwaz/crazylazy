@@ -1,6 +1,13 @@
 {
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "@crazyylazyy/core-parser": ["packages/core-parser"],
+      "@crazyylazyy/template-engine": ["packages/template-engine"],
+      "@crazyylazyy/templates/*": ["packages/templates/*"]
+    }
+  },
   "files": [],
   "references": [
     {
@@ -11,6 +18,15 @@
     },
     {
       "path": "./backend"
+    },
+    {
+      "path": "./packages/core-parser"
+    },
+    {
+      "path": "./packages/template-engine"
+    },
+    {
+      "path": "./packages/templates"
     }
   ]
 }
